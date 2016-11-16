@@ -33,6 +33,11 @@
 		72EF07FF1A3D9DF8005699CA /* WeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EF07FE1A3D9DF8005699CA /* WeekViewController.m */; };
 		72EF08151A3DB8C6005699CA /* MonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EF080C1A3DB8C6005699CA /* MonthViewController.m */; };
 		72EF08181A3DB8C6005699CA /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EF080E1A3DB8C6005699CA /* YearViewController.m */; };
+		946CBF7D1DDCDF64000CE0BD /* YazhCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 946CBF7C1DDCDF64000CE0BD /* YazhCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		946CBF841DDCDF64000CE0BD /* YazhCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946CBF7A1DDCDF64000CE0BD /* YazhCalendar.framework */; };
+		946CBF8B1DDCDF64000CE0BD /* YazhCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CBF8A1DDCDF64000CE0BD /* YazhCalendarTests.swift */; };
+		946CBF8F1DDCDF64000CE0BD /* YazhCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946CBF7A1DDCDF64000CE0BD /* YazhCalendar.framework */; };
+		946CBF911DDCDF64000CE0BD /* YazhCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 946CBF7A1DDCDF64000CE0BD /* YazhCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		96A3FD1C9E6707E46CB36A87 /* Pods_CalendarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06A59852B476A0AA324A957 /* Pods_CalendarDemo.framework */; };
 		BC32A4601D30FED600AB19D7 /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC32A45F1D30FED600AB19D7 /* DayViewController.m */; };
 		BC32A4681D3101BB00AB19D7 /* MGCCalendarHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC32A4671D3101BB00AB19D7 /* MGCCalendarHeaderCell.xib */; };
@@ -46,7 +51,42 @@
 			remoteGlobalIDString = 72B5D8ED180D73E0004ADB86;
 			remoteInfo = Calendar;
 		};
+		946CBF851DDCDF64000CE0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72B5D8E6180D73E0004ADB86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946CBF791DDCDF64000CE0BD;
+			remoteInfo = YazhCalendar;
+		};
+		946CBF871DDCDF64000CE0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72B5D8E6180D73E0004ADB86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B5D8ED180D73E0004ADB86;
+			remoteInfo = CalendarDemo;
+		};
+		946CBF8D1DDCDF64000CE0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72B5D8E6180D73E0004ADB86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946CBF791DDCDF64000CE0BD;
+			remoteInfo = YazhCalendar;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		946CBF901DDCDF64000CE0BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				946CBF911DDCDF64000CE0BD /* YazhCalendar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		072E5EFE1C338559007711A0 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
@@ -157,6 +197,12 @@
 		72EF080C1A3DB8C6005699CA /* MonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthViewController.m; sourceTree = "<group>"; };
 		72EF080D1A3DB8C6005699CA /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearViewController.h; sourceTree = "<group>"; };
 		72EF080E1A3DB8C6005699CA /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearViewController.m; sourceTree = "<group>"; };
+		946CBF7A1DDCDF64000CE0BD /* YazhCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YazhCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		946CBF7C1DDCDF64000CE0BD /* YazhCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YazhCalendar.h; sourceTree = "<group>"; };
+		946CBF7E1DDCDF64000CE0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946CBF831DDCDF64000CE0BD /* YazhCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YazhCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946CBF8A1DDCDF64000CE0BD /* YazhCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YazhCalendarTests.swift; sourceTree = "<group>"; };
+		946CBF8C1DDCDF64000CE0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC32A45E1D30FED500AB19D7 /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
 		BC32A45F1D30FED600AB19D7 /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
 		BC32A4611D31003C00AB19D7 /* MGCCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCCalendarHeaderView.h; sourceTree = "<group>"; };
@@ -179,6 +225,7 @@
 				72B5D8F6180D73E0004ADB86 /* UIKit.framework in Frameworks */,
 				72B5D8F2180D73E0004ADB86 /* Foundation.framework in Frameworks */,
 				96A3FD1C9E6707E46CB36A87 /* Pods_CalendarDemo.framework in Frameworks */,
+				946CBF8F1DDCDF64000CE0BD /* YazhCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +236,21 @@
 				72B5D90B180D73E0004ADB86 /* XCTest.framework in Frameworks */,
 				72B5D90D180D73E0004ADB86 /* UIKit.framework in Frameworks */,
 				72B5D90C180D73E0004ADB86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946CBF761DDCDF64000CE0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946CBF801DDCDF64000CE0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946CBF841DDCDF64000CE0BD /* YazhCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +376,8 @@
 				72CD8BAA18228A7500F12339 /* Lib */,
 				72B5D8F7180D73E0004ADB86 /* Demo */,
 				72B5D910180D73E0004ADB86 /* Tests */,
+				946CBF7B1DDCDF64000CE0BD /* YazhCalendar */,
+				946CBF891DDCDF64000CE0BD /* YazhCalendarTests */,
 				72B5D8F0180D73E0004ADB86 /* Frameworks */,
 				72B5D8EF180D73E0004ADB86 /* Products */,
 				F2CB583699A83B6039A63559 /* Pods */,
@@ -325,6 +389,8 @@
 			children = (
 				72B5D8EE180D73E0004ADB86 /* CalendarDemo.app */,
 				72B5D909180D73E0004ADB86 /* CalendarTests.xctest */,
+				946CBF7A1DDCDF64000CE0BD /* YazhCalendar.framework */,
+				946CBF831DDCDF64000CE0BD /* YazhCalendarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -445,6 +511,24 @@
 			path = CalendarLib;
 			sourceTree = "<group>";
 		};
+		946CBF7B1DDCDF64000CE0BD /* YazhCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				946CBF7C1DDCDF64000CE0BD /* YazhCalendar.h */,
+				946CBF7E1DDCDF64000CE0BD /* Info.plist */,
+			);
+			path = YazhCalendar;
+			sourceTree = "<group>";
+		};
+		946CBF891DDCDF64000CE0BD /* YazhCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				946CBF8A1DDCDF64000CE0BD /* YazhCalendarTests.swift */,
+				946CBF8C1DDCDF64000CE0BD /* Info.plist */,
+			);
+			path = YazhCalendarTests;
+			sourceTree = "<group>";
+		};
 		F2CB583699A83B6039A63559 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,6 +539,17 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		946CBF771DDCDF64000CE0BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946CBF7D1DDCDF64000CE0BD /* YazhCalendar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		72B5D8ED180D73E0004ADB86 /* CalendarDemo */ = {
@@ -467,10 +562,12 @@
 				72B5D8EC180D73E0004ADB86 /* Resources */,
 				834773CCABB3FAEA9BD07C84 /* [CP] Embed Pods Frameworks */,
 				BB74956EF84371AD80E5FE3C /* [CP] Copy Pods Resources */,
+				946CBF901DDCDF64000CE0BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				946CBF8E1DDCDF64000CE0BD /* PBXTargetDependency */,
 			);
 			name = CalendarDemo;
 			productName = Calendar;
@@ -495,17 +592,63 @@
 			productReference = 72B5D909180D73E0004ADB86 /* CalendarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		946CBF791DDCDF64000CE0BD /* YazhCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946CBF961DDCDF64000CE0BD /* Build configuration list for PBXNativeTarget "YazhCalendar" */;
+			buildPhases = (
+				946CBF751DDCDF64000CE0BD /* Sources */,
+				946CBF761DDCDF64000CE0BD /* Frameworks */,
+				946CBF771DDCDF64000CE0BD /* Headers */,
+				946CBF781DDCDF64000CE0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YazhCalendar;
+			productName = YazhCalendar;
+			productReference = 946CBF7A1DDCDF64000CE0BD /* YazhCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		946CBF821DDCDF64000CE0BD /* YazhCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946CBF971DDCDF64000CE0BD /* Build configuration list for PBXNativeTarget "YazhCalendarTests" */;
+			buildPhases = (
+				946CBF7F1DDCDF64000CE0BD /* Sources */,
+				946CBF801DDCDF64000CE0BD /* Frameworks */,
+				946CBF811DDCDF64000CE0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946CBF861DDCDF64000CE0BD /* PBXTargetDependency */,
+				946CBF881DDCDF64000CE0BD /* PBXTargetDependency */,
+			);
+			name = YazhCalendarTests;
+			productName = YazhCalendarTests;
+			productReference = 946CBF831DDCDF64000CE0BD /* YazhCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		72B5D8E6180D73E0004ADB86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Julien Martin";
 				TargetAttributes = {
 					72B5D8ED180D73E0004ADB86 = {
 						DevelopmentTeam = RSMX8QUE69;
+					};
+					946CBF791DDCDF64000CE0BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RSMX8QUE69;
+					};
+					946CBF821DDCDF64000CE0BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 72B5D8ED180D73E0004ADB86;
 					};
 				};
 			};
@@ -525,6 +668,8 @@
 			targets = (
 				72B5D8ED180D73E0004ADB86 /* CalendarDemo */,
 				72B5D908180D73E0004ADB86 /* CalendarTests */,
+				946CBF791DDCDF64000CE0BD /* YazhCalendar */,
+				946CBF821DDCDF64000CE0BD /* YazhCalendarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -551,6 +696,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B5D915180D73E0004ADB86 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946CBF781DDCDF64000CE0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946CBF811DDCDF64000CE0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +788,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		946CBF751DDCDF64000CE0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946CBF7F1DDCDF64000CE0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946CBF8B1DDCDF64000CE0BD /* YazhCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -636,6 +810,21 @@
 			isa = PBXTargetDependency;
 			target = 72B5D8ED180D73E0004ADB86 /* CalendarDemo */;
 			targetProxy = 72B5D90E180D73E0004ADB86 /* PBXContainerItemProxy */;
+		};
+		946CBF861DDCDF64000CE0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946CBF791DDCDF64000CE0BD /* YazhCalendar */;
+			targetProxy = 946CBF851DDCDF64000CE0BD /* PBXContainerItemProxy */;
+		};
+		946CBF881DDCDF64000CE0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72B5D8ED180D73E0004ADB86 /* CalendarDemo */;
+			targetProxy = 946CBF871DDCDF64000CE0BD /* PBXContainerItemProxy */;
+		};
+		946CBF8E1DDCDF64000CE0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946CBF791DDCDF64000CE0BD /* YazhCalendar */;
+			targetProxy = 946CBF8D1DDCDF64000CE0BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -761,6 +950,7 @@
 				GCC_PREFIX_HEADER = "CalendarDemo/Calendar-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/CalendarDemo/Calendar-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmartin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -781,6 +971,7 @@
 				GCC_PREFIX_HEADER = "CalendarDemo/Calendar-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/CalendarDemo/Calendar-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmartin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -827,6 +1018,108 @@
 			};
 			name = Release;
 		};
+		946CBF921DDCDF64000CE0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = YazhCalendar/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maf.YazhCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		946CBF931DDCDF64000CE0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = YazhCalendar/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maf.YazhCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		946CBF941DDCDF64000CE0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = YazhCalendarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maf.YazhCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalendarDemo.app/CalendarDemo";
+			};
+			name = Debug;
+		};
+		946CBF951DDCDF64000CE0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = YazhCalendarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maf.YazhCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalendarDemo.app/CalendarDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -856,6 +1149,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		946CBF961DDCDF64000CE0BD /* Build configuration list for PBXNativeTarget "YazhCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946CBF921DDCDF64000CE0BD /* Debug */,
+				946CBF931DDCDF64000CE0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		946CBF971DDCDF64000CE0BD /* Build configuration list for PBXNativeTarget "YazhCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946CBF941DDCDF64000CE0BD /* Debug */,
+				946CBF951DDCDF64000CE0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
